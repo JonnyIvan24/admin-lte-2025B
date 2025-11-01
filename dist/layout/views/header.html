@@ -157,13 +157,13 @@
                 </a>
                 <ul class="nav nav-treeview">
                   <li class="nav-item">
-                    <a href="../index.html" class="nav-link">
+                    <a href="../../views/usuarios/crear.php" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Crear</p>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="../index2.html" class="nav-link">
+                    <a href="../../views/usuarios/index.php" class="nav-link">
                       <i class="nav-icon bi bi-circle"></i>
                       <p>Listar</p>
                     </a>
@@ -215,158 +215,3 @@
           <!--end::Container-->
         </div>
         <!--end::App Content Header-->
-        <!--begin::App Content-->
-        <div class="app-content">
-          <!--begin::Container-->
-          <div class="container-fluid">
-            <!--begin::Row-->
-            <div class="row">
-              <div class="col-12">
-                <!-- Default box -->
-                <div class="card">
-                  <div class="card-header">
-                    <h3 class="card-title">Lista</h3>
-                  </div>
-                  <!-- /.card-header -->
-                  <div class="card-body p-0">
-                    <table class="table table-striped">
-                      <thead>
-                        <tr>
-                          <th style="width: 10px">ID</th>
-                          <th>Nombre</th>
-                          <th>Apellido</th>
-                          <th>Correo</th>
-                          <th style="width: 200px;">Acción</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr class="align-middle">
-                          <td>1</td>
-                          <td>Juan</td>
-                          <td>Uribe</td>
-                          <td>juan@email.com</td>
-                          <td>
-                            <div class="row">
-                                <button class="btn btn-success btn-small col-6">Editar</span>
-                                <button class="btn btn-danger btn-small col-6">Eliminar</span>
-                            </div>
-                        </td>
-                        </tr>
-                        <tr class="align-middle">
-                          <td>2</td>
-                          <td>Jonathan</td>
-                          <td>Perez</td>
-                          <td>jonathan@email.com</td>
-                          <td>
-                            <div class="row">
-                                <button class="btn btn-success btn-small col-6">Editar</span>
-                                <button class="btn btn-danger btn-small col-6">Eliminar</span>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr class="align-middle">
-                          <td>3</td>
-                          <td>Rosa</td>
-                          <td>Flores</td>
-                          <td>rosa@email.com</td>
-                          <td>
-                            <div class="row">
-                                <button class="btn btn-success btn-small col-6">Editar</span>
-                                <button class="btn btn-danger btn-small col-6">Eliminar</span>
-                            </div>
-                          </td>
-                        </tr>
-                        <tr class="align-middle">
-                          <td>4</td>
-                          <td>Claudia</td>
-                          <td>Torres</td>
-                          <td>claudia@email.com</td>
-                          <td>
-                            <div class="row">
-                                <button class="btn btn-success btn-small col-6">Editar</span>
-                                <button class="btn btn-danger btn-small col-6">Eliminar</span>
-                            </div>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                  <!-- /.card-body -->
-                   <div class="card-footer clearfix">
-                    <ul class="pagination pagination-sm m-0 float-end">
-                      <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
-                      <li class="page-item"><a class="page-link" href="#">1</a></li>
-                      <li class="page-item"><a class="page-link" href="#">2</a></li>
-                      <li class="page-item"><a class="page-link" href="#">3</a></li>
-                      <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- /.card -->
-              </div>
-            </div>
-            <!--end::Row-->
-          </div>
-        </div>
-        <!--end::App Content-->
-      </main>
-      <!--end::App Main-->
-      <!--begin::Footer-->
-      <footer class="app-footer">
-        <!--begin::To the end-->
-        <div class="float-end d-none d-sm-inline">Derechos reservados</div>
-        <!--end::To the end-->
-        <!--begin::Copyright-->
-        <strong>
-          Copyright &copy; 2025&nbsp;
-          <a href="https://adminlte.io" class="text-decoration-none">Mi tienda</a>.
-        </strong>
-        <!--end::Copyright-->
-      </footer>
-      <!--end::Footer-->
-    </div>
-    <!--end::App Wrapper-->
-    <!--begin::Script-->
-    <!--begin::Third Party Plugin(OverlayScrollbars)-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.11.0/browser/overlayscrollbars.browser.es6.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--end::Third Party Plugin(OverlayScrollbars)--><!--begin::Required Plugin(popperjs for Bootstrap 5)-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--end::Required Plugin(popperjs for Bootstrap 5)--><!--begin::Required Plugin(Bootstrap 5)-->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--end::Required Plugin(Bootstrap 5)--><!--begin::Required Plugin(AdminLTE)-->
-    <script src="../../../dist/js/adminlte.js"></script>
-    <!--end::Required Plugin(AdminLTE)--><!--begin::OverlayScrollbars Configure-->
-    <script>
-      const SELECTOR_SIDEBAR_WRAPPER = '.sidebar-wrapper';
-      const Default = {
-        scrollbarTheme: 'os-theme-light',
-        scrollbarAutoHide: 'leave',
-        scrollbarClickScroll: true,
-      };
-      document.addEventListener('DOMContentLoaded', function () {
-        const sidebarWrapper = document.querySelector(SELECTOR_SIDEBAR_WRAPPER);
-        if (sidebarWrapper && OverlayScrollbarsGlobal?.OverlayScrollbars !== undefined) {
-          OverlayScrollbarsGlobal.OverlayScrollbars(sidebarWrapper, {
-            scrollbars: {
-              theme: Default.scrollbarTheme,
-              autoHide: Default.scrollbarAutoHide,
-              clickScroll: Default.scrollbarClickScroll,
-            },
-          });
-        }
-      });
-    </script>
-    <!--end::OverlayScrollbars Configure-->
-    <!--end::Script-->
-  </body>
-  <!--end::Body-->
-</html>
